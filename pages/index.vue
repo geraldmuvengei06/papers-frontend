@@ -1,7 +1,14 @@
 <script setup>
+
+definePageMeta({
+    layout: "home"
+})
+
 </script>
 
 <template>
     <!-- <PlaygroundNuxtPlayground /> -->
-    <NuxtWelcome />
+    <!-- <PlaygroundTailwindPlayround></PlaygroundTailwindPlayround> -->
+    <!-- <NuxtWelcome /> -->
+    index
 </template>

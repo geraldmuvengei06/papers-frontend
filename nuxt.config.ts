@@ -7,5 +7,11 @@ export default defineNuxtConfig({
         public: {
             apiBase: '/api'
         }
+    },
+    css: ["@/assets/css/styles.css"],
+    build: {
+        postcss: {
+            postcssOptions: require("./postcss.config")
+        }
     }
 })
